@@ -1,12 +1,10 @@
 import Question from "./Question";
 const Quiz = () => {
   return (
-    <div>
-      <div>
-        Quiz
-      </div>
+    <div className="quiz">
+      <div className="score">Question 1/8</div>
       <Question />
-      <Question />
+      <div className="next-button">Next Question</div>
     </div>
   );
 };
